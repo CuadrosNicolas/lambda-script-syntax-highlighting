@@ -2,6 +2,8 @@
 
 Simple extension for VSCode enabling syntax highlithing for the lambda script language.
 
+The language :  [LambdaScript](https://github.com/CuadrosNicolas/LambdaScript)
+
 ## Installing
 
 You can install the extension easily using the make file :
