@@ -1,0 +1,25 @@
+{
+    "name": "lambda-script-syntax-highlighting",
+    "displayName": "Lambda Script Syntax Highlighting",
+    "description": "Simple extension ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "last",
+            "aliases": ["LambdA ScripT", "last"],
+            "extensions": [".last"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "last",
+            "scopeName": "source.last",
+            "path": "./syntaxes/last.tmLanguage.json"
+        }]
+    }
+}
